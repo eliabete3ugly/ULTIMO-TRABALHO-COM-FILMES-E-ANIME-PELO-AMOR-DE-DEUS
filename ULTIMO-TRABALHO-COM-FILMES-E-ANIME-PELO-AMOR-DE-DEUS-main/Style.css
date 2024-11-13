@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap');
+:root{
+    --cor-principal: red;
+    --cor-secundaria: green;
+    --cor-destaque: purple;
+}
+
+
+body{
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+h1, h2, h5{
+    color: var(--cor-secundaria);
+    font-weight: 700;
+}
+
+
+footer a{
+    color: var(--cor-principal);
+}
+
+
+footer a:hover{
+    color: var(--cor-destaque);
+}
